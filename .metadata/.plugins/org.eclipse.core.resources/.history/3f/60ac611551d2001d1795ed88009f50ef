@@ -1,0 +1,9 @@
+package praticaApostila4;
+import java.util.Scanner;
+
+public class Retorno {
+	public static void main(String[] args) {
+		Scanner S = new Scanner(System.in);
+		
+	}
+}

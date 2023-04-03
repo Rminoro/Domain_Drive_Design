@@ -1,0 +1,20 @@
+package br.com.fiap.padaria.model;
+
+public class Produto {
+//quando nao escreve nada é default, tm que colocar public/private/protected para alterar
+	int id;
+	String nome;
+	double precoCusto;
+	double precoVenda;
+	int quantidade;
+	
+	double calcularLucro() {
+		double lucro = precoVenda - precoCusto;
+		return lucro;
+	}
+	
+	void atualizarEstoque(int qtd) {
+		quantidade += qtd;
+	}
+	
+}

@@ -1,0 +1,13 @@
+package praticaApostila4;
+
+public class Cliente {
+	String nome;
+	String cpf;
+	endereco Endereco;
+	
+	public String retornarDados(){
+		System.out.println(nome+" " + cpf + " " + endereco);
+		return retornarDados;
+	}
+	
+}
