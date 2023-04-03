@@ -2,11 +2,14 @@ package praticaApostila4;
 
 public class ContaCorrente {
 
-	double saldo;
-	Cliente titular;
-	static double valor;
+	private double saldo;
+	private Cliente titular;
+	private double valor;
+	private double depositar;
+	private double retirar;
+	private double retornarSaldo;
 	
-	public void depositar(double valor) {
+	public void depositarS(double valor) {
 		double saldoFinal = saldo + valor;
 	}
 	
@@ -14,9 +17,34 @@ public class ContaCorrente {
 		double saldoSaque = saldo - valor;
 	}
 	
-	public double retornarSaldo(double saldo) {
+	public static double retornarSaldo(double saldo) {
 		System.out.println(saldo);
 		return saldo;
+	}
+
+	public double getSaldo(double saldo){
+		return saldo;
+	}
+	
+	public Cliente getCliente(Cliente titular) {
+		return titular;
+	}
+	
+	public double getValor(double valor) {
+		return valor;
+	}
+	
+	public double getDepositar(double depositar) {
+		return depositar;	
+	}
+	
+	public double getRetirar(double retirar) {
+		return retirar;
+	}
+	
+	public double getRetornarSaldo(double retornarSaldo) {
+		return retornarSaldo;
+	}
 	}
 	
 }

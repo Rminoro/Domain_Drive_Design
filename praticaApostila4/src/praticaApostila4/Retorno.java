@@ -30,8 +30,10 @@ public class Retorno {
 		endereco.cep = S.next();
 		
 		System.out.println("Digite o valor a ser depositado");
-		ContaCorrente.valor = S.nextDouble();
-		double D = ContaCorrente.depositar();
+		Conta.depositarS = S.nextDouble();
+		
+		
+
 		
 	
 	}
