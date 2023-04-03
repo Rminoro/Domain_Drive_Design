@@ -4,7 +4,7 @@ public class ContaCorrente {
 
 	double saldo;
 	Cliente titular;
-	static double valor;
+	double valor
 	
 	public void depositar(double valor) {
 		double saldoFinal = saldo + valor;

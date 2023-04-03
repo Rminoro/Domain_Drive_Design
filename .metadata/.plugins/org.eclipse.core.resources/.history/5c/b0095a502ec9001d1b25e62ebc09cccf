@@ -1,8 +1,0 @@
-package br.com.fiap.exercicio;
-
-public class main {
-	public static void main (String[] args) {
-	
-		
-	}
-}
